@@ -10,7 +10,7 @@
      prodrow.innerHTML = '';
      for (i = 0; i < record.length; i++) {
          prodrow.innerHTML += `
-         <h1 class='h1 text-center bg-primary text-light py-5'></h1>
+        
          <div class="card" style="width: 18rem;">
   <img src="${record[i].thumbnail}" class="card-img-top" alt="...">
   <div class="card-body">
@@ -24,5 +24,6 @@
      }
 
  }
+
 
  datafetch()
